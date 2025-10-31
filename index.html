@@ -1,106 +1,144 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Harish Khan — CV</title>
-  <style>
-    :root{--bg:#f6f7fb;--card:#fff;--accent:#0b67ff;--text:#111}
-    *{box-sizing:border-box}
-    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-         margin:0;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
-    .wrap{max-width:900px;margin:36px auto;padding:24px}
-    .card{background:var(--card);border-radius:12px;padding:28px;box-shadow:0 8px 30px rgba(13,15,30,0.06)}
-    header{display:flex;gap:20px;align-items:center}
-    .photo{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);
-           display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:22px}
-    h1{margin:0;font-size:22px}
-    p.lead{margin:6px 0 0;color:#555}
-    .grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:22px}
-    section{padding:8px}
-    .section-title{font-weight:700;color:var(--accent);font-size:13px;margin-bottom:8px}
-    ul{margin:0;padding-left:18px}
-    .skill{display:inline-block;border-radius:999px;padding:6px 10px;margin:6px 6px 0 0;background:#f0f6ff;font-size:13px}
-    footer{margin-top:18px;color:#666;font-size:13px}
-    /* responsive */
-    @media (max-width:740px){.grid{grid-template-columns:1fr}.photo{width:76px;height:76px}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Danish Khan - Senior Software Engineer (React + Laravel + Node + AWS)</title>
+<style>
+:root {
+  --bg:#f5f7fb; --text:#111; --accent:#0078ff; --card:#fff;
+}
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background:var(--bg); margin:0; color:var(--text);
+  line-height:1.6;
+}
+.container {
+  max-width:900px; margin:auto; background:var(--card);
+  padding:40px 28px; border-radius:12px;
+  box-shadow:0 8px 30px rgba(0,0,0,0.05);
+}
+h1 {margin:0;color:var(--accent);}
+h2 {border-bottom:2px solid var(--accent);padding-bottom:4px;font-size:18px;margin-top:36px;}
+h3 {margin:6px 0;color:var(--accent);}
+ul {margin:6px 0 10px 22px;padding:0;}
+.contact {
+  display:flex;flex-wrap:wrap;gap:12px;font-size:14px;color:#444;
+}
+.skill-list span {
+  display:inline-block;background:#eaf2ff;color:#003366;
+  padding:6px 10px;margin:4px;border-radius:8px;font-size:13px;
+}
+.job {margin-bottom:20px;}
+footer{text-align:center;margin-top:40px;font-size:13px;color:#666;}
+@media(max-width:720px){.contact{flex-direction:column}}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <header>
-        <div class="photo">HK</div>
-        <div>
-          <h1>Harish Khan</h1>
-          <p class="lead">Full-Stack Developer — Node.js, Next.js, React • harish@example.com • +91 9XXXXXXXXX</p>
-        </div>
-      </header>
-
-      <div class="grid">
-        <main>
-          <section>
-            <div class="section-title">Professional Summary</div>
-            <p>Experienced web developer building scalable applications using Node.js, React, Next.js and modern databases (MongoDB, MySQL). Strong in frontend+backend, deployment and debugging.</p>
-          </section>
-
-          <section>
-            <div class="section-title">Experience</div>
-            <ul>
-              <li><strong>Senior Developer</strong> — CF Helper (2024–Present). Built dashboards, APIs, and deployment pipelines.</li>
-              <li><strong>Web Developer</strong> — Example Co (2021–2024). Projects: e-commerce, real-time dashboards, MQTT device integrations.</li>
-            </ul>
-          </section>
-
-          <section>
-            <div class="section-title">Education</div>
-            <ul>
-              <li>B.Tech / B.E. — Computer Science — Example University — 2020</li>
-            </ul>
-          </section>
-
-          <section>
-            <div class="section-title">Projects</div>
-            <ul>
-              <li>Project A — Next.js app with SSR and static export.</li>
-              <li>Project B — Node.js + MongoDB API for device telemetry.</li>
-            </ul>
-          </section>
-        </main>
-
-        <aside>
-          <section>
-            <div class="section-title">Skills</div>
-            <div>
-              <span class="skill">Node.js</span>
-              <span class="skill">React</span>
-              <span class="skill">Next.js</span>
-              <span class="skill">MongoDB</span>
-              <span class="skill">MySQL</span>
-              <span class="skill">Docker</span>
-            </div>
-          </section>
-
-          <section>
-            <div class="section-title">Links</div>
-            <ul>
-              <li><a href="#" target="_blank" rel="noreferrer">GitHub</a></li>
-              <li><a href="#" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            </ul>
-          </section>
-
-          <section>
-            <div class="section-title">Languages</div>
-            <ul>
-              <li>English (Fluent)</li>
-              <li>Hindi (Native)</li>
-            </ul>
-          </section>
-        </aside>
-      </div>
-
-      <footer>Last updated: October 31, 2025 — Portfolio / CV created with a single HTML file.</footer>
+  <div class="container">
+    <h1>Danish Khan</h1>
+    <p><strong>Senior Software Engineer (React + Laravel + Node + AWS)</strong></p>
+    <div class="contact">
+      <div>📍 221/4 Sultan Chowk, Hindon Vihar, Ghaziabad, India</div>
+      <div>📞 +91-8826481418</div>
+      <div>✉️ <a href="mailto:danishmaint@gmail.com">danishmaint@gmail.com</a></div>
     </div>
+
+    <h2>Professional Summary</h2>
+    <p>
+      Experienced and motivated Full-Stack Developer with 8+ years of expertise
+      in building scalable web applications using <strong>React.js, Laravel, Node.js,</strong>
+      and cloud infrastructure on <strong>AWS</strong>.
+      Strong experience integrating REST APIs, optimizing performance, and leading
+      Agile development teams to deliver modern, reliable solutions.
+    </p>
+
+    <h2>Key Skills</h2>
+    <div class="skill-list">
+      <span>React.js</span><span>Laravel</span><span>Node.js</span><span>JavaScript (ES6+)</span>
+      <span>HTML5</span><span>CSS3</span><span>jQuery</span><span>AJAX</span>
+      <span>MySQL</span><span>MongoDB</span><span>Git / GitHub</span>
+      <span>JIRA</span><span>REST APIs</span><span>Ubuntu</span><span>AWS</span>
+    </div>
+
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <h3>Freelancer — Full-Time</h3>
+      <p><em>Dec 2024 – Present</em></p>
+      <ul>
+        <li>Delivering complete web solutions using React.js, Laravel, Node.js, and AWS deployment.</li>
+        <li>Working directly with clients to architect, design, and deploy scalable apps.</li>
+        <li>Focus on clean UI, optimized APIs, and CI/CD automation.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Syncrasy Technologies, Noida — Sr. Software Engineer (React.js)</h3>
+      <p><em>27-Mar-2024 – 13-Dec-2024</em></p>
+      <ul>
+        <li>Built and optimized complex React.js modules with REST API integrations.</li>
+        <li>Worked closely with backend Laravel & Node teams for performance tuning.</li>
+        <li>Handled AWS-based deployments and CI/CD pipelines.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Agreeya Solutions Pvt. Ltd., Noida — Sr. Software Engineer (React.js)</h3>
+      <p><em>16-Nov-2023 – 18-Feb-2024</em></p>
+      <ul>
+        <li>Developed responsive React interfaces and integrated secure APIs.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Appinventiv Technologies Pvt. Ltd., Noida — Sr. Software Engineer (React.js)</h3>
+      <p><em>19-Aug-2019 – 04-Sep-2023</em></p>
+      <ul>
+        <li>Built reusable React components and integrated microservices APIs.</li>
+        <li>Collaborated with backend teams on Node.js and Laravel projects.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Syncrasy Technologies, Noida — Sr. Software Engineer</h3>
+      <p><em>10-Dec-2018 – 09-Aug-2019</em></p>
+    </div>
+
+    <div class="job">
+      <h3>ChromeInfo Technologies, Noida — Software Engineer</h3>
+      <p><em>08-Feb-2018 – 10-Dec-2018</em></p>
+    </div>
+
+    <div class="job">
+      <h3>RNF Technologies Pvt. Ltd., Noida — Software Engineer</h3>
+      <p><em>06-Dec-2016 – 31-Jan-2018</em></p>
+    </div>
+
+    <div class="job">
+      <h3>Daried Technologies Pvt. Ltd., Noida — Software Engineer</h3>
+      <p><em>10-Sep-2015 – 05-Dec-2016</em></p>
+    </div>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Computer Science</strong> — UPTU, Ghaziabad (2010 – 2014)</li>
+      <li>12th — UP Board (2010)</li>
+      <li>10th — UP Board (2008)</li>
+    </ul>
+
+    <h2>Highlighted Projects</h2>
+    <ul>
+      <li><strong>Livia Benefit Management System</strong> — Influencer Marketing Platform (React.js, REST APIs, AWS).</li>
+      <li><strong>Account Management System (Pythru)</strong> — Payment automation platform (React + Node + MySQL).</li>
+      <li><strong>EISAI Fitness Band Dashboard</strong> — Health band admin panel (React + REST APIs).</li>
+      <li><strong>Meerkat Application</strong> — Child welfare management app (React + AWS).</li>
+      <li><strong>Medi-Ops</strong> — Product delivery management system (React + Node + AWS).</li>
+    </ul>
+
+    <footer>
+      © 2025 Danish Khan — Hosted on <a href="https://github.com" target="_blank">GitHub Pages</a>
+    </footer>
   </div>
 </body>
 </html>

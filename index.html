@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Harish Khan — CV</title>
+  <style>
+    :root{--bg:#f6f7fb;--card:#fff;--accent:#0b67ff;--text:#111}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+         margin:0;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:900px;margin:36px auto;padding:24px}
+    .card{background:var(--card);border-radius:12px;padding:28px;box-shadow:0 8px 30px rgba(13,15,30,0.06)}
+    header{display:flex;gap:20px;align-items:center}
+    .photo{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);
+           display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:22px}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:#555}
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:22px}
+    section{padding:8px}
+    .section-title{font-weight:700;color:var(--accent);font-size:13px;margin-bottom:8px}
+    ul{margin:0;padding-left:18px}
+    .skill{display:inline-block;border-radius:999px;padding:6px 10px;margin:6px 6px 0 0;background:#f0f6ff;font-size:13px}
+    footer{margin-top:18px;color:#666;font-size:13px}
+    /* responsive */
+    @media (max-width:740px){.grid{grid-template-columns:1fr}.photo{width:76px;height:76px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="photo">HK</div>
+        <div>
+          <h1>Harish Khan</h1>
+          <p class="lead">Full-Stack Developer — Node.js, Next.js, React • harish@example.com • +91 9XXXXXXXXX</p>
+        </div>
+      </header>
+
+      <div class="grid">
+        <main>
+          <section>
+            <div class="section-title">Professional Summary</div>
+            <p>Experienced web developer building scalable applications using Node.js, React, Next.js and modern databases (MongoDB, MySQL). Strong in frontend+backend, deployment and debugging.</p>
+          </section>
+
+          <section>
+            <div class="section-title">Experience</div>
+            <ul>
+              <li><strong>Senior Developer</strong> — CF Helper (2024–Present). Built dashboards, APIs, and deployment pipelines.</li>
+              <li><strong>Web Developer</strong> — Example Co (2021–2024). Projects: e-commerce, real-time dashboards, MQTT device integrations.</li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="section-title">Education</div>
+            <ul>
+              <li>B.Tech / B.E. — Computer Science — Example University — 2020</li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="section-title">Projects</div>
+            <ul>
+              <li>Project A — Next.js app with SSR and static export.</li>
+              <li>Project B — Node.js + MongoDB API for device telemetry.</li>
+            </ul>
+          </section>
+        </main>
+
+        <aside>
+          <section>
+            <div class="section-title">Skills</div>
+            <div>
+              <span class="skill">Node.js</span>
+              <span class="skill">React</span>
+              <span class="skill">Next.js</span>
+              <span class="skill">MongoDB</span>
+              <span class="skill">MySQL</span>
+              <span class="skill">Docker</span>
+            </div>
+          </section>
+
+          <section>
+            <div class="section-title">Links</div>
+            <ul>
+              <li><a href="#" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="#" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="section-title">Languages</div>
+            <ul>
+              <li>English (Fluent)</li>
+              <li>Hindi (Native)</li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+
+      <footer>Last updated: October 31, 2025 — Portfolio / CV created with a single HTML file.</footer>
+    </div>
+  </div>
+</body>
+</html>

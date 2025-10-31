@@ -86,6 +86,17 @@ footer{text-align:center;margin-top:40px;font-size:13px;color:#666;}
 }
 
 </style>
+<script>
+  window.onload = function() {
+    const userInput = prompt("Enter the access code to view this page:");
+    if (userInput !== "cv@8826") {
+      alert("Access Denied!");
+      document.body.innerHTML = "<h2 style='text-align:center;color:red;'>Access Denied 🚫</h2>";
+    } else {
+      //alert("Access Granted ✅");
+    }
+  };
+</script>
 </head>
 <body>
   <div class="container">
